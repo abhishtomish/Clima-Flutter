@@ -1,4 +1,5 @@
 import 'dart:convert';
+
 import 'package:http/http.dart' as http;
 
 class NetworkHelper {
@@ -12,4 +13,5 @@ class NetworkHelper {
     } else {
       print(response.statusCode);
     }
+  }
 }
